@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animais Fantásticos</title>
+    <link rel="stylesheet" href="/css/style.css" <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <script>
+        document.documentElement.className += ' js'
+    </script>
+</head>
+
+<body>
+    <main>
+        <div class="grid-container">
+            <header class="menu" data-menu="suave">
+                <nav>
+                    <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+                    <ul data-menu="list" id="menu">
+                        <Li><a href="#animais">Animais</a></Li>
+                        <li data-dropdown>
+                            <a href="index.html">Sobre</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">A empresa</a></li>
+                                <li><a href="index.html">Equipe</a></li>
+                                <li><a href="index.html">Sócios</a></li>
+                                <li><a href="index.html">Investidores</a></li>
+                            </ul>
+                        
+                        </li>
+                        <Li><a href="#faq">Faq</a></Li>
+                        <Li><a href="#contato">Contato</a></Li>
+                        <Li><a data-modal="abrir" href="index.html">Login →</a></Li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="grid-section animais" id="animais">
+                <h1 class="titulo">Animais Fantasticos</h1>
+                <ul class="animais-lista" data-tab="menu">
+                    <li>
+                        <img src="/img/imagem1.jpg" alt="Raposa">
+                    </li>
+                    <li>
+                        <img src="/img/imagem2.jpg" alt="Esquilo">
+                    </li>
+                    <li>
+                        <img src="/img/imagem3.jpg" alt="Urso">
+                    </li>
+                    <li>
+                        <img src="/img/imagem4.jpg" alt="Lobo">
+                    </li>
+                    <li>
+                        <img src="/img/imagem5.jpg" alt="Macaco">
+                    </li>
+                    <li>
+                        <img src="/img/imagem6.jpg" alt="Leão">
+                    </li>
+                </ul>
+                <div class="animais-descricao" aria-labelledby="label-descrições" data-tab="content">
+                    <section data-anime="show-right" aria-labelledby="label-raposa">
+                        <h2>Raposa</h2>
+                        <p>As raposas são animais mamíferos e onívoros pertencentes à família Canidae. São vulpídeos de
+                            porte
+                            médio, caracterizados por um focinho comprido e uma cauda longa e peluda.</p>
+                        <p>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos
+                            felídeos.</p>
+                    </section>
+                    <section data-anime="show-right" aria-labelledby="label-esquilo">
+                        <h2>Esquilo</h2>
+                        <p>Os esquilos pertencem a uma grande família de mamíferos roedores, de pequeno e médio porte,
+                            conhecida como Sciuridae. No Brasil, são também conhecidos como serelepe, caxinguelê, caxinxe,
+                            quatimirim, quatipuru, agutipuru ou acutipuru. Na Galiza e em algumas zonas de Portugal, também
+                            são conhecido por esquio..</p>
+                        <p>Trata-se de um animal de hábitos diurnos e se desloca com incrível agilidade pela copas das
+                            árvores, bem coma para subir ou descer pelos troncos.</p>
+                    </section>
+                    <section data-anime="show-right" aria-labelledby="label-urso">
+                        <h2>Urso</h2>
+                        <p>Os Ursos constituem uma família de mamíferos carnívoros de grande porte, contendo os ursos e os
+                            pandas. Eles são classificados como caníformes ou carnivoros caninos.</p>
+                        <p>É uma família que vive nos mais diversos habitats terrestres.</p>
+                    </section>
+                    <section data-anime="show-right" aria-labelledby="label-lobo">
+                        <h2>Lobo</h2>
+                        <p>Em geral, os lobos são inteligentes, velozes e estrategistas no momento da caça, sendo
+                            reconhecidos como excelentes predadores. Eles também são animais territorialistas e disputam o
+                            poder do espaço com grupos rivais.</p>
+                        <p>É comum a delimitação das fronteiras entre os grupos com fezes e urina.</p>
+                    </section>
+                    <section data-anime="show-right" aria-labelledby="label-macaco">
+                        <h2>Macaco</h2>
+                        <p>Macaco é um termo de origem africana utilizado como designação comum a todas as espécies de
+                            símios ou primatas antropoides.</p>
+                        <p>É aplicada restritivamente no Brasil aos cebídeos em geral.</p>
+                    </section>
+                    <section data-anime="show-right" aria-labelledby="label-leão">
+                        <h2>Leão</h2>
+                        <p>O leão [feminino: leoa] é uma espécie de mamífero carnívoro do gênero Panthera e da família
+                            Felidae.</p>
+                        <p>A espécie é atualmente encontrada na África subsaariana e na Ásia, com uma única população
+                            remanescente em perigo, no Parque Nacional da Floresta de Gir, Gujarat, Índia.</p>
+                    </section>
+                </div>
+            </section>
+            <section class="grid-section faq js-faq" data-anime="scroll" id="faq">
+                <h1 class="titulo">FAQ</h1>
+                <dl class="faq-lista" data-anima="accordion">
+                    <dt>Qual a idade dos animais ?</dt>
+                    <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos
+                        felídeos.</dd>
+                    <dt>Eles são fantásticos?</dt>
+                    <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos
+                        felídeos.</dd>
+                    <dt>Qual a diferença?</dt>
+                    <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos
+                        felídeos.</dd>
+                    <dt>Como proteger?</dt>
+                    <dd>Também apresentam como particularidade suas pupilas ovais, semelhantes às pupilas verticais dos
+                        felídeos.</dd>
+                </dl>
+            </section>
+            <section class="grid-section galeria" data-anime="scroll">
+            <ul class="custom-controls">
+                <li><img src="img/foto1-thumb.jpg" alt=""></li>
+                <li><img src="img/foto2-thumb.jpg" alt=""></li>
+                <li><img src="img/foto3-thumb.jpg" alt=""></li>
+                <li><img src="img/foto4-thumb.jpg" alt=""></li>
+                <li><img src="img/foto5-thumb.jpg" alt=""></li>
+                <li><img src="img/foto6-thumb.jpg" alt=""></li>
+            </ul>
+            <div class="wrapper">
+                <ul class="slide">
+                    <li><img src="img/foto1.jpg" alt=""></li>
+                    <li><img src="img/foto2.jpg" alt=""></li>
+                    <li><img src="img/foto3.jpg" alt=""></li>
+                    <li><img src="img/foto4.jpg" alt=""></li>
+                    <li><img src="img/foto5.jpg" alt=""></li>
+                    <li><img src="img/foto6.jpg" alt=""></li>
+                </ul>
+            </div>
+            </section>
+            <section class="grid-section numeros" data-anime="scroll">
+                <h1 class="titulo">Números</h1>
+                <div class="numeros-grid">
+                    <div class="numero-animal">
+                        <h3>Raposas</h3>
+                        <span data-numero>4874</span>
+                    </div>
+                    <div class="numero-animal">
+                        <h3>Esquilos</h3>
+                        <span data-numero>6364</span>
+                    </div>
+                    <div class="numero-animal">
+                        <h3>Ursos</h3>
+                        <span data-numero>1359</span>
+                    </div>
+                    <div class="numero-animal">
+                        <h3>Lobos</h3>
+                        <span data-numero>4956</span>
+                    </div>
+                    <div class="numero-animal">
+                        <h3>Macacos</h3>
+                        <span data-numero>11234</span>
+                    </div>
+                    <div class="numero-animal">
+                        <h3>Leões</h3>
+                        <span data-numero>3753</span>
+                    </div>
+                </div>
+            </section>
+            <section class="grid-section contato" data-anime="scroll" id="contato">
+                <h1 class="titulo">Contato</h1>
+                <div class="mapa"   data-tooltip aria-label="Endereço próximo a policia militar">
+                    <img src="/img/mapa.png" alt="Mapa">
+                </div>
+                <ul class="dados">
+                    <li>leonardolobas2703@gmail.com</li>
+                    <li>+55 (42) 9 88490054</li>
+                    <li>Rua josé Francisco Pereirea, 326</li>
+                    <li>Porto União - SC</li>
+                    <li data-semana="1,2,3,4,5" data-horario="8,18">Seg à Sex das 8 às 18</li>
+                    <li>Doe <span class="btc-preco">0</span> BitCoin para nos ajudar</li>
+                </ul>
+            </section>
+            <footer class="copy">
+        
+                <p>Todos direitos reservados.</p>
+        
+            </footer>
+        </div>
+              
+        <section class="modal-container" data-modal="container">
+            <div class="modal">
+                <button data-modal="fechar" class="fechar">X</button>
+                <form action="">
+                    <label for="email">Email</label>
+                    <input type="text" for="email" id="email">
+                    <label for="senha">Senha</label>
+                    <input type="password" for="senha" id="senha">
+                    <button type="submit">Entrar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script type="module"  src="/js/imports.js"></script>
+</body>
+
+</html>
